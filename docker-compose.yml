@@ -1,0 +1,12 @@
+version: '3'
+services:
+  votre_service:
+    image: myecoria/rairewards:latest
+    environment:
+      - privatekey=The representative's private key
+      - account=The representative's address
+      - fee=The fee percentage you wanted
+      - feeadd=The address where your fees will be sent
+      - work=If you want the jobs to be generated on a server, choose "remote" otherwise, choose "locale"
+      - workurl=If you chose remote, you must specify the url. You can use https://api.raione.cc/api
+      - nodeurl=The address of your node or a node. You can choose https://explorer.raione.cc/rpc

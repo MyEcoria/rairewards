@@ -1,0 +1,9 @@
+{
+    "privateKey": "",
+    "account": "",
+    "fee": 3,
+    "fee_add": "",
+    "work": "remote|local",
+    "work_url": "https://api.raione.cc/api",
+    "node_url": "http://localhost:7076"
+}
